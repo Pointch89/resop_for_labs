@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <div class="reg-form">
+        <div class="reg-form__title">
+            <img src="./img/calendar.png" alt="calendar" class="reg-form__title_image">
+            <p class="reg-form__title_text">iPad Summer Institute @<br>Warren Middle School<br><br>Registration Form</p>
+        </div>
+        <div class="reg-form__form">
+            <div class="reg-form__form_items">
+                <label>First Name* <input type="text" required>
+                    <a class="help" href="#"><img src="./img/question mark.png" alt="help">
+                        <span class="airhelp">Enter your first name</span>
+                    </a>
+                </label>
+                <label>Last Name* <input type="text" required>
+                    <a class="help" href="#"><img src="./img/question mark.png" alt="help">
+                        <span class="airhelp">Enter your last name</span>
+                    </a>
+                </label>
+                <label class="align-style">School Name* <input type="text" required></label>
+                <label>Address <input type="text">
+                    <a class="help" href="#"><img src="./img/question mark.png" alt="help">
+                        <span class="airhelp">Enter your address</span>
+                    </a>
+                </label>
+                <label class="align-style">City* <input type="text" required></label>
+                <p id="input_to_choose">State*
+                    <select id="state" required>
+                        <option> </option>
+                        <option value="State 1">State 1</option>
+                        <option value="State 2">State 2</option>
+                    </select>
+                </p>
+                <label class="align-style">Zip Code <input type="text"></label>
+                <label class="align-style">School Position <input type="text"></label>
+                <label>E-mail* <input type="email" required>
+                    <a class="help" href="#"><img src="./img/question mark.png" alt="help">
+                        <span class="airhelp">Enter your e-mail</span>
+                    </a>
+                </label>
+            </div>
+            <hr class="reg-form__line">
+            <p class="reg-form__text">Please choose which date you will be attending the iPad Summer Institute</p>
+            <div class="reg-form__date-form">
+                <label>Date Attending*
+                    <span class="reg-form__input-style">
+                        <input type="radio" name="answer" value="July 12, 2011" required>July 12, 2011
+                        <input type="radio" name="answer" value="July 13, 2011" required id="date_to_choose">July 13,
+                        2011
+                    </span>
+                </label>
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+        <div class="users">
+
+        </div>
+    </div>
+    <script src="./index/usersInterface.js"></script>
+    <script src="./index/users.js"></script>
+    <script src="./index/index.js"></script>
+</body>
+
+</html>
