@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 800px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.contacts-part {
+    background: linear-gradient(to right, rgb(253, 191, 212), rgb(240, 226, 239));
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(58, 40, 53), 0 0 1em rgb(255, 255, 255);
+}
+.education-part {
+    background-color: rgb(248, 244, 248);
+    display: flex;
+    flex-direction: column;
+    color:rgb(139, 139, 139);
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+.my-photo {
+    height: 200px;
+    width: 200px;
+    margin: 30px 0 15px 0;
+    border-radius: 50%;
+    align-self: center;
+}
+h1 {
+    align-self: center;
+}
+.job-title {
+    align-self: center;
+}
+.contacts-items {
+    height: 20px;
+}
+.contacts-part__contacts {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.contacts-part__contact-style {
+    display: flex;
+    padding-top: 20px;
+}
+.contact-style_padding {
+    padding-left: 10px;
+}
+.contacts-part__skills {
+    padding: 30px 0 30px 30px;
+}
+.skills-style {
+    padding-top: 10px;
+}
+.skills-line {
+    margin-top: 5px;
+    width: 220px;
+    border-style: none;
+    height: 5px;
+}
+.figma {
+    background: linear-gradient(to right, rgb(116, 98, 111) 80%, rgb(196, 188, 188) 80%);
+}
+.rubymine {
+    background: linear-gradient(to right, rgb(116, 98, 111) 70%, rgb(196, 188, 188) 70%);
+}
+.photoshop {
+    background: linear-gradient(to right, rgb(116, 98, 111) 85%, rgb(196, 188, 188) 85%);
+}
+.intellij {
+    background: linear-gradient(to right, rgb(116, 98, 111) 60%, rgb(196, 188, 188) 60%);
+}
+.autocad {
+    background: linear-gradient(to right, rgb(116, 98, 111) 80%, rgb(196, 188, 188) 80%);
+}
+.contacts-part__hobbies {
+    margin: 30px 0 30px 0;
+}
+.contacts-part__hobbies-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 27px 0 0;
+}
+.hobbies-icons {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 20px;
+}
+.contacts-part__social-media {
+    margin-top: 10px;
+}
+.social-media_links {
+    margin-top: 15px;
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+.social-media_icons {
+    width: 20px;
+    height: 20px;
+}
+.education-experience {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.about-me_block {
+    margin: 20px 0 30px 0;
+}
+.education-part__titles {
+    color:rgb(71, 67, 67);
+    margin-top: 30px;
+}
+.education-blocks {
+    display: flex;
+}
+.experience-job {
+    margin-top: 20px;
+}
+.ul_paddings {
+    padding-left: 30px;
+    margin-right: 20px;
+}
