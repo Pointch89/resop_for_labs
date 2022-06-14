@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+}
+.reg-form__title {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    height: 140px;
+    background-color: rgb(76, 76, 80);
+    color: white;
+    font-size: 24px;
+}
+.reg-form__title_image {
+    width: 80px;
+    height: 80px;
+}
+.reg-form__title_text {
+    margin-left: 20px;
+}
+.reg-form__form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 40px;
+    font-size: 14px;
+    background-color: rgb(205, 227, 236);
+    color:rgb(45, 45, 48);
+    font-weight: bold;
+}
+.reg-form__form_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 300px;
+    width: 300px;
+}
+.reg-form__line {
+    margin: 15px 0 20px 0;
+}
+.reg-form__text {
+    font-size: 13px;
+}
+.reg-form__date-form {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 60px;
+}
+.reg-form__input-style {
+    color:rgb(90, 90, 97);
+}
+#input_to_choose {
+    padding-right: 110px;
+}
+#date_to_choose {
+    margin-left: 15px;
+}
+.help {
+    color: #000000; outline: none;
+    cursor: help; text-decoration: none;
+    position: relative;
+}
+.help span {
+    margin-left: -999em;
+    position: absolute;
+}
+.help:hover span {
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    z-index: 99;
+    margin-left: 0;
+    width: 200px;
+}
+.help:hover img {
+    border: 0;
+}
+.airhelp {
+    background: none repeat scroll 0 0 rgba(139, 145, 150, 0.9);
+    border: 1px solid #2b82b8;
+    border-radius: 5px; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
+    color: #fff; 
+    padding: 5px;
+}
+.align-style {
+    padding-right: 24px;
+}
+
+button{
+    margin: 10px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    border-color: rgb(15, 12, 12) ;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  button:hover{
+    background-color: rgb(97, 91, 91);
+  }
+
+  .users {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .information{
+    margin: 5px;
+    color: rgb(104, 80, 36);
+    font-style: italic;
+  }
